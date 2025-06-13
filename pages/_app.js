@@ -1,23 +1,12 @@
 import { appWithTranslation, useTranslation } from 'next-i18next';
-import { createContext, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import '../styles/globals.css';
-import { Inter, Cairo } from 'next/font/google';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import Head from 'next/head';
-import { ThemeProvider } from '../context/ThemeContext';
+import { ThemeContext } from '../context/ThemeContext';
 
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-});
 
-const cairo = Cairo({
-  subsets: ['arabic', 'latin'],
-  display: 'swap',
-});
-
-export const ThemeContext = createContext();
 
 function MyApp({ Component, pageProps }) {
   const [isDark, setIsDark] = useState(false);
@@ -117,20 +106,22 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="theme-color" content={isDark ? '#111827' : '#ffffff'} />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Cairo:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <style jsx global>{`
         :root {
-          --font-inter: ${inter.style.fontFamily};
-          --font-cairo: ${cairo.style.fontFamily};
+          --font-inter: 'Inter', sans-serif;
+          --font-cairo: 'Cairo', sans-serif;
         }
       `}</style>
-      <ThemeProvider>
-        <ThemeContext.Provider value={{ isDark, setIsDark, mounted }}>
-          <ErrorBoundary>
-            <Component {...pageProps} />
-          </ErrorBoundary>
-        </ThemeContext.Provider>
-      </ThemeProvider>
+      <ThemeContext.Provider value={{ isDark, setIsDark, mounted }}>
+        <ErrorBoundary>
+          <Component {...pageProps} />
+        </ErrorBoundary>
+      </ThemeContext.Provider>
     </>
   );
 }

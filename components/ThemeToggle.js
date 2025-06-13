@@ -1,6 +1,6 @@
 "use client";
 import { useContext } from 'react';
-import { ThemeContext } from '../pages/_app';
+import { ThemeContext } from '../context/ThemeContext';
 
 export default function ThemeToggle() {
   const { isDark, setIsDark } = useContext(ThemeContext);
