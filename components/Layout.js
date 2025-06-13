@@ -6,7 +6,7 @@ import { useEffect, useState, useContext } from 'react';
 import { FaInstagram, FaWhatsapp, FaSnapchatGhost, FaTiktok } from 'react-icons/fa';
 import Image from 'next/image';
 import Head from 'next/head';
-import { ThemeContext } from '../pages/_app'; // Correct path to ThemeContext
+import { ThemeContext } from '../context/ThemeContext';
 import AboutSection from './AboutSection'; // Import AboutSection
 import ContactFormSection from './ContactFormSection';
 
