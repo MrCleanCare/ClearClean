@@ -1,0 +1,31 @@
+{
+  "welcome": "Welcome to the Cleaning Company",
+  "description": "We provide professional cleaning services across Saudi Arabia.",
+  "hero": {
+    "title": "Professional Cleaning Services in Jeddah",
+    "subtitle": "Your trusted partner for a cleaner, healthier home",
+    "cta": "Book Now"
+  },
+  "services": {
+    "title": "Our Services",
+    "residential": "Residential Cleaning",
+    "commercial": "Commercial Cleaning",
+    "deep": "Deep Cleaning",
+    "move": "Move In/Out Cleaning"
+  },
+  "whyUs": {
+    "title": "Why Choose Us",
+    "quality": "Quality Service",
+    "professional": "Professional Team",
+    "eco": "Eco-Friendly Products",
+    "satisfaction": "100% Satisfaction"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say"
+  },
+  "cta": {
+    "title": "Ready for a Cleaner Space?",
+    "subtitle": "Book your cleaning service today",
+    "button": "Get Started"
+  }
+}

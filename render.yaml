@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: cleaning-website
+    runtime: node
+    repo: https://github.com/magicCeaner/cleaning-website
+    branch: main
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    env: node
+    plan: free
+    autoDeploy: true

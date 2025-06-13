@@ -1,0 +1,66 @@
+{
+  "welcome": "Welcome to the Cleaning Company",
+  "description": "We provide professional cleaning services across Saudi Arabia.",
+  "companyName": "CleanPro KSA",
+  "seo": {
+    "title": "Professional Cleaning Services in Saudi Arabia | CleanPro KSA",
+    "description": "High-quality cleaning services across Saudi Arabia. Residential, commercial, and deep cleaning services with professional staff and eco-friendly products."
+  },
+  "nav": {
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Professional Cleaning Services in Saudi Arabia",
+    "subtitle": "Your trusted partner for a cleaner, healthier space. We deliver excellence in every corner.",
+    "cta": "Book Now",
+    "services": "Our Services"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive cleaning solutions for your home and business",
+    "residential": "Residential Cleaning",
+    "residentialDesc": "Regular and deep cleaning services for your home, ensuring a healthy and comfortable living environment.",
+    "commercial": "Commercial Cleaning",
+    "commercialDesc": "Professional cleaning services for offices, retail spaces, and commercial properties.",
+    "deep": "Deep Cleaning",
+    "deepDesc": "Thorough cleaning of every corner, including hard-to-reach areas and detailed attention to all surfaces.",
+    "move": "Move In/Out Cleaning",
+    "moveDesc": "Complete cleaning services for properties before moving in or after moving out."
+  },
+  "whyUs": {
+    "title": "Why Choose Us",
+    "subtitle": "We're committed to delivering the highest quality cleaning services",
+    "quality": "Quality Service",
+    "qualityDesc": "We use advanced cleaning techniques and equipment to ensure the best results.",
+    "professional": "Professional Team",
+    "professionalDesc": "Our staff is highly trained, experienced, and dedicated to excellence.",
+    "eco": "Eco-Friendly Products",
+    "ecoDesc": "We use environmentally friendly cleaning products that are safe for your family and pets.",
+    "satisfaction": "100% Satisfaction",
+    "satisfactionDesc": "We guarantee your satisfaction with our services and always go the extra mile."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say"
+  },
+  "cta": {
+    "title": "Ready for a Cleaner Space?",
+    "subtitle": "Book your cleaning service today",
+    "button": "Get Started"
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "phone": "+966 XX XXX XXXX",
+    "email": "info@cleanpro-ksa.com",
+    "address": "Jeddah, Saudi Arabia",
+    "services": "Our Services",
+    "follow": "Follow Us",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter"
+    },
+    "rights": "All rights reserved."
+  }
+}
