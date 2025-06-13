@@ -23,8 +23,8 @@ export default async function handler(req, res) {
   });
 
   // Debug logging for SMTP credentials
-  console.log('SMTP_USER:', process.env.SMTP_USER);
-  console.log('SMTP_PASS:', process.env.SMTP_PASS);
+  // console.log('SMTP_USER:', process.env.SMTP_USER);
+  // console.log('SMTP_PASS:', process.env.SMTP_PASS);
 
   try {
     await transporter.sendMail({
