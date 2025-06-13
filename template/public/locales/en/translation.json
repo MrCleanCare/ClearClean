@@ -1,0 +1,212 @@
+{
+  "welcome": "Welcome to Master Clean Care",
+  "description": "Delivering professional cleaning services in Jeddah for homes and businesses.",
+  "companyName": "Master Clean Care",
+  "seo": {
+    "title": "Master Clean Care | House Cleaning Service in Jeddah",
+    "description": "Professional cleaning services for homes and offices in Jeddah. We offer deep cleaning, office cleaning, and move-in/out cleaning services.",
+    "keywords": "house cleaning Jeddah, office cleaning, deep cleaning, cleaning services, Master Clean Care"
+  },
+  "nav": {
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Expert Cleaning Services in Jeddah",
+    "subtitle": "Your trusted partner for a spotless, healthy environment. Excellence in every detail.",
+    "cta": "Contact Us",
+    "services": "View Services"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive cleaning solutions for your home and business.",
+    "learnMore": "Learn More",
+    "residential": "Residential Cleaning",
+    "residentialDesc": "Comprehensive house cleaning services for your home, apartment, or villa in Jeddah. We cover everything from routine tidying to deep cleaning, ensuring a spotless, healthy, and comfortable living space for you and your family. We specialize in eco-friendly products.",
+    "commercial": "Commercial Cleaning",
+    "commercialDesc": "Professional commercial cleaning for offices, retail spaces, and business facilities in Jeddah. Our expert teams provide tailored cleaning solutions, including daily janitorial services, to maintain a pristine and productive work environment. Reliable and insured.",
+    "deep": "Deep Cleaning",
+    "deepDesc": "Our deep cleaning service is a thorough, top-to-bottom sanitization of your property. Ideal for spring cleaning, post-renovation, or preparing for an event. We tackle hard-to-reach areas, ensuring every corner is immaculate.",
+    "move": "Move In/Out Cleaning",
+    "moveDesc": "Stress-free move-in/move-out cleaning services. Whether you're vacating a property or settling into a new one, we provide a comprehensive clean to meet landlord requirements or ensure a fresh start.",
+    "tank": "Tank Cleaning & Insulation",
+    "tankDesc": "Water tank cleaning, insulation, and disinfection for healthy water.",
+    "pest": "Pest & Termite Control",
+    "pestDesc": "Safe and effective pest and termite control services.",
+    "steam": "Sofa, Carpet & Curtain Steam Cleaning",
+    "steamDesc": "Steam cleaning for sofas, carpets, and curtains to remove stains and germs.",
+    "ac": "Split AC Cleaning",
+    "acDesc": "Cleaning and maintenance of split AC units for better air quality.",
+    "marble": "Marble Polishing & Shining",
+    "deepClean": {
+      "title": "Deep Clean",
+      "description": "Comprehensive deep cleaning service for your entire home"
+    },
+    "movingClean": {
+      "title": "Moving Clean",
+      "description": "Complete cleaning service for move-in or move-out situations"
+    },
+    "officeClean": {
+      "title": "Office & Workplace Cleaning",
+      "description": "Professional cleaning services for offices and businesses"
+    },
+    "standardClean": {
+      "title": "Standard Cleaning",
+      "description": "Regular cleaning services for homes and offices"
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose Us",
+    "subtitle": "Committed to delivering the highest quality cleaning services.",
+    "quality": "Quality Service",
+    "qualityDesc": "We use advanced cleaning techniques and equipment for the best results.",
+    "professional": "Professional Team",
+    "professionalDesc": "Our staff is highly trained, experienced, and dedicated to excellence.",
+    "eco": "Eco-Friendly Products",
+    "ecoDesc": "We use environmentally friendly cleaning products that are safe for your family and pets.",
+    "satisfaction": "Customer Satisfaction",
+    "satisfactionDesc": "Your satisfaction is our top priority. We guarantee outstanding results every time."
+  },
+  "testimonials": {
+    "title": "Client Testimonials"
+  },
+  "cta": {
+    "title": "Ready for a Cleaner Space?",
+    "subtitle": "Book your cleaning service today.",
+    "button": "Get Started"
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "phone": "tel:+966561062662 - tel:+966501266260",
+    "email": "info@masterclean-care.com",
+    "address": "Prince Sultan St, An Nahdah District, Jeddah 23423, Saudi Arabia",
+    "whatsapp": "https://wa.me/966561062662",
+    "hours": "Working Hours: 8 AM - 5 PM",
+    "services": "Our Services",
+    "follow": "Follow Us",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter"
+    },
+    "rights": "All rights reserved",
+    "phoneLabel": "Phone Number",
+    "emailLabel": "Email",
+    "addressLabel": "Location:",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms & Conditions"
+  },
+  "Excellent service! My house has never been cleaner.": "Excellent service! My house has never been cleaner.",
+  "Professional and friendly staff. Highly recommended!": "Professional and friendly staff. Highly recommended!",
+  "They use eco-friendly products, which is great for my kids.": "They use eco-friendly products, which is great for my kids.",
+  "Customer satisfaction is our top priority. We guarantee your happiness with every service!": "Customer satisfaction is our top priority. We guarantee your happiness with every service!",
+  "Contact Form": "Contact US",
+  "Thank you for your message!": "Thank you for your message!",
+  "Your Name": "Your Name",
+  "Your Email": "Your Email",
+  "Your Message": "Your Message",
+  "Your Mobile": "Your Mobile",
+  "Send": "Send",
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "q": "What cleaning services do you offer?",
+        "a": "We offer house cleaning, office cleaning, deep cleaning, move-in/move-out cleaning, and more."
+      },
+      {
+        "q": "Do you use eco-friendly products?",
+        "a": "Yes, we use safe and eco-friendly cleaning products."
+      },
+      {
+        "q": "How can I book a service?",
+        "a": "You can book through the website or contact us directly."
+      },
+      {
+        "q": "What are your business hours?",
+        "a": "We operate from 8 AM to 5 PM, Sunday to Thursday and Saturday."
+      },
+      {
+        "q": "Which cities do you serve for residential cleaning?",
+        "a": "We serve the Jeddah area. Please contact us for more details about our service coverage."
+      },
+      {
+        "q": "Are your commercial cleaning contracts flexible?",
+        "a": "Yes, we offer flexible commercial cleaning contracts, including daily, weekly, or monthly services, tailored to your business needs."
+      }
+    ]
+  },
+  "blog": "Blog",
+  "blogDesc": "Cleaning tips, guides, and news from Master Clean Care.",
+  "comingSoon": "Articles coming soon...",
+  "about": {
+    "title": "About Master Clean Care",
+    "p1": "Master Clean Care is a leading cleaning service provider dedicated to delivering exceptional cleanliness and hygiene solutions in Jeddah. With years of experience in the industry, we pride ourselves on our commitment to quality, professionalism, and customer satisfaction.",
+    "p2": "Our mission is to create healthier and more comfortable living and working environments for our clients. We achieve this by employing highly trained and trustworthy cleaning professionals, utilizing advanced cleaning techniques, and using eco-friendly products that are safe for your family, pets, and the environment.",
+    "p3": "We offer a comprehensive range of services tailored to meet the diverse needs of our residential and commercial clients in Jeddah, including deep cleaning, move-in/move-out cleaning, office cleaning, and specialized services like tank cleaning and marble polishing. Our flexible scheduling and customized cleaning plans ensure that we can accommodate your specific requirements.",
+    "p4": "At Master Clean Care, we believe in building long-term relationships with our clients based on trust and reliability. We are constantly striving to exceed expectations and set new standards in the cleaning industry. Choose Master Clean Care for a spotless space and a healthier life."
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "p1": "This Privacy Policy describes how Master Clean Care collects, uses, and discloses your personal information when you visit or make a purchase from our website.",
+    "p2": "We collect personal information you provide to us, such as your name, email address, phone number, and message content when you use our contact form or request a service. We also collect certain information automatically when you visit our site, including your IP address, browser type, and browsing activity.",
+    "p3": "We use the information we collect to provide and maintain our services, process your inquiries and requests, communicate with you, improve our website and services, and for marketing purposes. We may also use your information to comply with legal obligations.",
+    "h1": "Information Sharing and Disclosure",
+    "p4": "We do not sell or rent your personal information to third parties. We may share your information with trusted third-party service providers who assist us in operating our website, conducting our business, or providing services to you, provided that these parties agree to keep this information confidential. We may also disclose your information when required by law.",
+    "h2": "Data Security",
+    "p5": "We implement a variety of security measures to maintain the safety of your personal information. However, no method of transmission over the Internet or method of electronic storage is 100% secure.",
+    "h3": "Your Rights",
+    "p6": "You have the right to access, correct, or delete your personal information. You may also have the right to restrict or object to certain processing of your data. To exercise these rights, please contact us using the information provided on our website.",
+    "h4": "Changes to This Privacy Policy",
+    "p7": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.",
+    "h5": "Contact Us",
+    "p8": "If you have any questions about this Privacy Policy, please contact us at info@masterclean-care.com."
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "p1": "Welcome to Master Clean Care. These terms and conditions outline the rules and regulations for the use of Master Clean Care's Website.",
+    "p2": "By accessing this website we assume you accept these terms and conditions. Do not continue to use Master Clean Care if you do not agree to take all of the terms and conditions stated on this page.",
+    "p3": "The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: 'Client', 'You' and 'Your' refers to you, the person log on this website and compliant to the Company's terms and conditions. 'The Company', 'Ourselves', 'We', 'Our' and 'Us', refers to our Company. 'Party', 'Parties', or 'Us', refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of provision of the Company's stated services, in accordance with and subject to, prevailing law of Saudi Arabia.",
+    "h1": "Service Provision",
+    "p4": "Master Clean Care agrees to provide cleaning services as described on our website and as agreed upon with the client. We reserve the right to refuse service to anyone for any reason at any time.",
+    "h2": "Payment Terms",
+    "p5": "Payment for services is due upon completion of the service, unless otherwise agreed upon in writing. We accept various payment methods as indicated on our website. All prices are subject to change without prior notice.",
+    "h3": "Cancellations and Rescheduling",
+    "p6": "Clients must provide at least 24 hours notice for any cancellation or rescheduling of services. Failure to do so may result in a cancellation fee. We reserve the right to cancel or reschedule services due to unforeseen circumstances."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help. Get in touch with us and we'll respond as soon as possible.",
+    "name": "Name",
+    "namePlaceholder": "Enter your full name",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Your message has been sent successfully!",
+    "error": "An error occurred while sending your message. Please try again."
+  },
+  "error": {
+    "title": "Oops! Something went wrong",
+    "description": "Please refresh the page or try again later",
+    "refresh": "Refresh Page"
+  },
+  "reviews": {
+    "title": "What Our Clients Say",
+    "subtitle": "Read what our satisfied customers have to say about our services",
+    "review1": "The team was professional, thorough, and paid attention to every detail. My house has never been cleaner!",
+    "author1": "Sarah Johnson",
+    "date1": "March 15, 2024",
+    "review2": "Excellent service! They use eco-friendly products and the staff is very courteous. Highly recommended!",
+    "author2": "Mohammed Ahmed",
+    "date2": "March 10, 2024",
+    "review3": "Very reliable and consistent service. They always go above and beyond my expectations.",
+    "author3": "Fatima Al-Sayed",
+    "date3": "March 5, 2024"
+  }
+}

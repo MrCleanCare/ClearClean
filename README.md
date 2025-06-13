@@ -1,88 +1,114 @@
+# Next.js Website Template
 
-# 🧼 Cleaning Company One-Page Website Template (Reusable Version)
+This is a versatile Next.js template designed for quickly setting up new websites. It comes with a basic structure, internationalization support, and theme toggling.
 
-This is a **centralized, fully customizable one-page website** template built with **Next.js + Tailwind CSS** and designed for **cleaning companies** — now converted into a **reusable website template** for any local business.
+## Getting Started
 
----
+Follow these steps to get your new website up and running:
 
-## 🚀 Features
+### 1. Clone the Repository
 
-- ✅ One-page layout (all sections in `index.tsx`)
-- 🌐 Bilingual support (Arabic + English) using `next-i18next`
-- 🧩 Configurable via `siteConfig.ts`
-- 🧼 Interactive Services section with modal details
-- 💬 Testimonials section (configurable)
-- 📍 Embedded Google Maps in Contact section
-- 📲 WhatsApp & Call Now sticky buttons
-- 📁 All content centralized — no routing needed
-- 🌓 Auto theme switch (dark/light logos)
-- 💡 Fully responsive design
-- 🧠 Easily brandable for any service business
+```bash
+git clone [YOUR_REPOSITORY_URL] your-new-project-name
+cd your-new-project-name
+```
 
----
+### 2. Install Dependencies
 
-## 🔧 How to Use
+```bash
+npm install
+# or
+yarn install
+```
 
-1. **Edit Config:**
+### 3. Customize Site Configuration
 
-Update branding and content via:
-```ts
+Edit the `siteConfig.ts` file to update your company name, contact information, logos, and default language settings.
+
+```typescript
 // siteConfig.ts
 export const siteConfig = {
-  companyName: "Your Company",
-  primaryColor: "#yourColor",
-  phoneNumber: "+9665XXXXXXX",
-  ...
+  companyName: "Your Company Name",
+  phoneNumber: "+1234567890",
+  email: "info@yourcompany.com",
+  address: "Your Company Address",
+  logoLight: "/images/logo-light.avif",
+  logoDark: "/images/logo-dark.avif",
+  defaultLang: "en",
+  direction: "ltr",
 };
 ```
 
-2. **Run Locally:**
+### 4. Update Content
+
+*   **Pages:** Modify the content in the `pages/` directory to create your website's pages.
+*   **Components:** Customize existing components in `components/` or add new ones.
+*   **Public Assets:** Replace placeholder images in `public/images/` with your own assets (e.g., logos, hero images, service icons).
+*   **Locales:** Update translation files in `public/locales/` for internationalization.
+
+### 5. Run the Development Server
+
 ```bash
-npm install
 npm run dev
+# or
+yarn dev
 ```
 
-3. **Build for Production:**
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### 6. Build for Production
+
 ```bash
 npm run build
-npm start
+# or
+yarn build
 ```
 
-4. **Deploy to Vercel / Netlify**
+This command builds the application for production to the `.next` folder.
 
----
+### 7. Deployment
 
-## 🌍 Directory Structure
+This template is ready to be deployed on platforms like Vercel, Netlify, or any Node.js compatible hosting. Refer to the documentation of your chosen platform for specific deployment instructions.
+
+## Project Structure
 
 ```
-Cleaning_OnePage_Final_Deployable-main/
-├── siteConfig.ts          # 🔧 Central config for logo, colors, services, reviews
-├── components/            # React components for each section
-├── pages/index.tsx        # One-page site
-├── public/                # Assets (images, icons, logos)
-│   └── locales/           # i18n translations for ar/en
-├── styles/                # Tailwind global styles
-├── next.config.js         # Next.js configuration
-├── tailwind.config.js     # Tailwind theme setup
-├── package.json
-└── README.md              # This file
+.
+├── components/             # Reusable UI components
+├── context/                # React Context for global state (e.g., ThemeContext)
+├── lib/                    # Utility functions and helpers (e.g., i18n setup)
+├── pages/                  # Next.js pages (routes)
+│   ├── api/                # API routes
+├── public/                 # Static assets (images, fonts, locales, etc.)
+│   ├── images/
+│   └── locales/
+├── scripts/                # Utility scripts
+├── styles/                 # Global CSS styles
+├── .eslintrc.json          # ESLint configuration
+├── jsconfig.json           # JavaScript configuration for VSCode
+├── next-i18next.config.js  # Next.js i18n configuration
+├── next.config.js          # Next.js configuration
+├── package.json            # Project dependencies and scripts
+├── postcss.config.js       # PostCSS configuration
+├── README.md               # This file
+├── siteConfig.ts           # Centralized site configuration
+└── tailwind.config.js      # Tailwind CSS configuration
 ```
 
----
+## Technologies Used
 
-## 🧩 Optional Future Enhancements
+*   [Next.js](https://nextjs.org/) - React framework for production
+*   [React](https://react.dev/) - JavaScript library for building user interfaces
+*   [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+*   [next-i18next](https://github.com/i18next/next-i18next) - Internationalization for Next.js
+*   [next-themes](https://github.com/pacocoursey/next-themes) - Dark mode support
+*   [Nodemailer](https://nodemailer.com/)- For sending emails (e.g., contact form)
+*   [Heroicons](https://heroicons.com/) - SVG icons
+*   [React Icons](https://react-icons.github.io/react-icons/) - Popular icon packs
+*   [Axios](https://axios-http.com/) - Promise based HTTP client
+*   [clsx](https://github.com/lukeed/clsx) - A tiny (229B) utility for constructing `className` strings conditionally.
+*   [js-cookie](https://github.com/js-cookie/js-cookie) - A simple, lightweight JavaScript API for handling browser cookies.
 
-- Supabase CMS integration (editable without code)
-- QR code + dynamic links per client
-- Admin dashboard for client creation
-- Subdomain / `?client=` support for multi-tenant
+## License
 
----
-
-## 📄 License
-
-Free to use for commercial and personal projects.
-
----
-
-Made with ❤️ for service-based businesses.
+This project is open-sourced under the MIT License.
